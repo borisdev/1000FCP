@@ -9,15 +9,15 @@ Steps - each of the main functions behaves as follows:
 -----
 
 * Input: 
-**  filename: name of NIFTI file to be processed
-**  maskname: name of mask to use to exclude non-brain
-**  template: which of the 4 templates will be used
-**  outfprefix: name of the output files
-**  threshold: threshold for binarizing each correlation matrix
+*  filename: name of NIFTI file to be processed
+*  maskname: name of mask to use to exclude non-brain
+*  template: which of the 4 templates will be used
+*  outfprefix: name of the output files
+*  threshold: threshold for binarizing each correlation matrix
 
 * Output: no array's are output to the workspace, but several data derivatives are saved, including:
-**  ts:  N-by-T matrix containing the time-series of each region
-**  rsfc: N-by-N matrix of correlations across regions, as well some transformed versions
-**  cent: the thresholds for binarizing the adjacency matrices computed in a variety of possible ways
+*  ts:  N-by-T matrix containing the time-series of each region
+*  rsfc: N-by-N matrix of correlations across regions, as well some transformed versions
+*  cent: the thresholds for binarizing the adjacency matrices computed in a variety of possible ways
   
 
