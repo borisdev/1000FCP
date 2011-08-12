@@ -3,10 +3,8 @@ This code was all written by Xi-Nian Zuo, Ph.D. for the analysis of the 1000 Fun
 Mission
 ======
 
-The purpose of this code is to take NIFTI files of whole brains and estimate functional connectivity. The main functions are called 'IPN_doSingleSubject_regionCENT_X.m' where X indicates which of four possible parcellation schemes were used: (i) aal, (ii) cameron, (iii) dosenbach2010, or (iv) hoa25. 
+The purpose of this code is to take NIFTI files of whole brains and estimate functional connectivity. The main functions are called 'IPN_doSingleSubject_regionCENT_X.m' where X indicates which of four possible parcellation schemes were used: (i) aal, (ii) cameron, (iii) dosenbach2010, or (iv) hoa25. Each of the main functions behaves as follows:
 
-Steps - each of the main functions behaves as follows:
-=====
 
 Input: 
 -----
@@ -16,8 +14,9 @@ Input:
 *  outfprefix: name of the output files
 *  threshold: threshold for binarizing each correlation matrix
 
-Output: no array's are output to the workspace, but several data derivatives are saved, including:
+Output: 
 ------
+no array's are output to the workspace, but several data derivatives are saved, including:
 *  ts:  N-by-T matrix containing the time-series of each region
 *  rsfc: N-by-N matrix of correlations across regions, as well some transformed versions
 *  cent: the thresholds for binarizing the adjacency matrices computed in a variety of possible ways
