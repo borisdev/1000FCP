@@ -1,4 +1,4 @@
-This code was all written by Xi-Nian Zuo, Ph.D. for the analysis of the 1000 Functional Connectome Project data.  
+This code was all written by [Xi-Nian Zuo](http://lfcd.psych.ac.cn/) , Ph.D. for the analysis of the [1000 Functional Connectome Project](http://fcon_1000.projects.nitrc.org/) data, while in the lab of [Michael Milham](http://www.childmind.org/en/directory/staff/mmilham), M.D., Ph.D.  The code relies on some parcellations developed by others, including [the Neuro Bureau](http://neurobureau.org).
 
 Mission
 ======
