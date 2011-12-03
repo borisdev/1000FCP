@@ -22,3 +22,7 @@ no array's are output to the workspace, but several data derivatives are saved, 
 *  cent: the thresholds for binarizing the adjacency matrices computed in a variety of possible ways
   
 
+Data Derivatives
+======
+
+If you'd like to download the data derivatives directly, please send an email to <joshuav@jhu.edu> for instructions.
