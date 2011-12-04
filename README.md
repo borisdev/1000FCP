@@ -25,4 +25,4 @@ no array's are output to the workspace, but several data derivatives are saved, 
 Data Derivatives
 ======
 
-If you'd like to download the data derivatives directly, please send an email to <joshuav@jhu.edu> for instructions.
+All the data downloads are freely available from the OCP [1000 Functional Connectome page](http://openconnectomeproject.org/1000FCP/) (here is the link directly to the [data derivates](http://openconnectomeproject.org/data/indi/1000FCP/))
