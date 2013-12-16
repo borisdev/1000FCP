@@ -1,3 +1,17 @@
+## Notes for Gazzlab:
+
+### DATA I/O
+
+Use [swift.py](https://cloud.sdsc.edu/hp/swift.php) to upload and download data to/from SDSC:
+
+    python swift.py -A https://cloud.sdsc.edu/auth/v1.0 -U GROUP:USER -K PASSWORD upload test preprocess_data/IPN_doSingleSubject_regionCENT_cameron.m
+
+
+
+
+
+--
+
 This code was all written by [Xi-Nian Zuo](http://lfcd.psych.ac.cn/) , Ph.D. for the analysis of the [1000 Functional Connectome Project](http://fcon_1000.projects.nitrc.org/) data, while in the lab of [Michael Milham](http://www.childmind.org/en/directory/staff/mmilham), M.D., Ph.D.  The code relies on some parcellations developed by others, including [the Neuro Bureau](http://neurobureau.org).  Note that the raw data is available for download from the 1000FCP NITRIC [downloads page](http://www.nitrc.org/frs/?group_id=296), and the processed data is available for [download](http://db.tt/c8DUupG) as well.
 
 Mission
